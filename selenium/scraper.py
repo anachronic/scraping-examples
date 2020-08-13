@@ -46,6 +46,7 @@ def main():
     links = tabla.find_elements_by_css_selector('a')
     links = [link.get_attribute('href') for link in links]
 
+    datos_scrapeados = []
     for link in links:
         driver.get(link)
         container_tabla = driver.find_element_by_xpath(
@@ -56,9 +57,9 @@ def main():
         headers = [header.text for header in headers]
 
         filas = tabla.find_elements_by_css_selector('tbody tr')
-        filas = [
+        datos_scrapeados += [
             {
-                headers[i]: fila.text
+                headers[i]: celda.text
                 for i, celda in enumerate(fila.find_elements_by_css_selector('td'))
             }
             for fila in filas
@@ -70,7 +71,8 @@ def main():
     print()
 
     print('especifico')
-    print(filas)
+    import json
+    print(json.dumps(datos_scrapeados, indent=True))
 
     driver.save_screenshot('screenshot.png')
     driver.quit()
