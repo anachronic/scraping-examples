@@ -1,0 +1,41 @@
+filas iniciales
+[['9394', '28/07/09 a las 19:10 hrs.', '29/07/09 a las 16:22 hrs.', "Terminada\nen 'Resuelto'"], ['39728', '08/12/10 a las 00:24 hrs.', '02/03/11 a las 10:52 hrs.', "Terminada\nen 'Resuelto'"], ['47490', '10/03/11 a las 17:24 hrs.', '11/03/11 a las 12:28 hrs.', "Terminada\nen 'Resuelto'"], ['60059', '07/10/11 a las 19:56 hrs.', '08/10/11 a las 10:58 hrs.', "Terminada\nen 'Resuelto'"]]
+
+especifico
+[
+ {
+  "N\u00ba": "1",
+  "Curso": "C\u00e1lculo Avanzado y Aplicaciones\nMA2002-3",
+  "Horario": "C\u00e1tedra: Lunes 08:30 - 10:00, Mi\u00e9rcoles 08:30 - 10:00\nAuxiliar: Martes 14:00 - 16:00\nControl: Jueves 18:00 - 21:00",
+  "Requisitos": "(MA2001/MA2A1),(MA2601/MA2G1)",
+  "Resoluci\u00f3n": "Rechazado"
+ },
+ {
+  "N\u00ba": "1",
+  "Curso": "Teor\u00eda de la Computaci\u00f3n\nCC3102-1",
+  "Horario": "C\u00e1tedra: Lunes 12:00 - 13:30, Jueves 12:00 - 13:30\nAuxiliar: Mi\u00e9rcoles 16:15 - 17:45",
+  "Requisitos": "CC3101,CC3001",
+  "Resoluci\u00f3n": "Rechazado"
+ },
+ {
+  "N\u00ba": "1",
+  "Curso": "M\u00e9todos Experimentales\nFI2003-7",
+  "Horario": "C\u00e1tedra: Martes 14:30 - 16:00\nLaboratorio: Jueves 14:30 - 17:45\nControl: Jueves 18:00 - 21:00, Semana: 4, 8, 12",
+  "Requisitos": "(MA1002/MA1A2),(FI1100/FI2A1)",
+  "Resoluci\u00f3n": "Aceptado"
+ },
+ {
+  "N\u00ba": "1",
+  "Curso": "Movimiento Estudiantil y Construcci\u00f3n de Ciudadan\u00eda\nEH2901-1",
+  "Horario": "C\u00e1tedra: Lunes 18:30 - 19:45",
+  "Requisitos": "AUTOR",
+  "Resoluci\u00f3n": "Aceptado"
+ },
+ {
+  "N\u00ba": "2",
+  "Curso": "Taller de Historia a partir de Iniciativa: \"Cr\u00f3nicas de Beauchef\"\nEH2903-1",
+  "Horario": "C\u00e1tedra: Lunes 15:30 - 16:45",
+  "Requisitos": "",
+  "Resoluci\u00f3n": "Aceptado"
+ }
+]
