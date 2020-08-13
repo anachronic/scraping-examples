@@ -1,0 +1,6 @@
+puppeteer/node_modules
+puppeteer/*.png
+
+selenium/*.png
+selenium/*.pyc
+selenium/__pycache__
